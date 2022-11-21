@@ -1,0 +1,261 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+body{
+  background: rgb(31, 31, 32);
+}
+
+.section-valor{
+  width: 100vw;
+  height: 16rem;
+  background-color: rgb(31, 31, 31,);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.visor-valor{
+  background-color: rgba(255, 255, 255, 0.2);
+  height: 10rem;
+  width: 80%;
+  position: absolute ;
+  text-align: center;
+  border-radius: 0.5rem;
+  border:3px solid #0d63e3;
+  color: white;
+}
+
+.visor-valor h1{
+  font-size: large;
+  font-size: 26px;
+  font-weight: bold;
+  padding-top: 1rem;
+}
+
+.valor-atual p{
+  font-size: x-large;
+  font-size: 36px;
+  font-weight: bold;
+  margin-top: 3rem;
+}
+
+.section-entrada-saida{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  
+}
+
+.entrada-receita, .entrada-despesa{
+  height: 7rem;
+  width: 40%;
+  background-color: rgba(0, 0, 0, 0.2);
+  margin: 0 1rem;
+  border-radius: 0.5rem;
+  border: 1px solid #0d63e3;
+}
+
+.section-itens{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.area-receita, .area-despesa, .area-objetivo{
+  width: 80%;
+  height: 3rem;
+  margin: 1rem 0;
+  background-color: #0d63e3;
+  border-radius: 0.5rem;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: larger;
+}
+
+.section-entrada-saida span{
+  font-size: 26px;
+  font-weight: bold;
+  color: white;
+}
+
+section h2{
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+.chat-bot{
+  width: 4rem;
+  height: 4rem;
+  position: fixed;
+  z-index: 2;
+  transform: translate(74rem, -9rem) !important;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-radius: 2rem;
+  background-color: rgb(15, 170, 209);
+}
+
+
+
+
+@media only screen and (min-width: 320px) and (max-width: 767px){
+
+  .section-valor{
+    width: 100vw;
+    height: 16rem;
+    background-color: rgb(31, 31, 31);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .visor-valor{
+    background-color: rgba(255, 255, 255, 0.2);
+    height: 10rem;
+    width: 80%;
+    position: absolute ;
+    text-align: center;
+    border-radius: 0.5rem;
+    border:3px solid #0d63e3;
+    color: white;
+  }
+
+  .visor-valor h1{
+    font-size: large;
+    font-size: 26px;
+    font-weight: bold;
+    padding-top: 1rem;
+  }
+
+  .valor-atual p{
+    font-size: x-large;
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 3rem;
+  }
+
+  .section-entrada-saida{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    
+  }
+  
+  .entrada-receita, .entrada-despesa{
+    height: 7rem;
+    width: 40%;
+    background-color: rgba(0, 0, 0, 0.2);
+    margin: 0 1rem;
+    border-radius: 0.5rem;
+    border: 1px solid #0d63e3;
+  }
+
+  .section-itens{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .area-receita, .area-despesa, .area-objetivo{
+    width: 80%;
+    height: 3rem;
+    margin: 1rem 0;
+    background-color: #0d63e3;
+    border-radius: 0.5rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: larger;
+  }
+
+  .section-entrada-saida span{
+    font-size: 26px;
+    font-weight: bold;
+    color: white;
+  }
+
+  section h2{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .chat-bot{
+    width: 4rem;
+    height: 4rem;
+    position: fixed;
+    z-index: 2;
+    transform: translate(14rem, -9rem) !important;
+    background-image: url(/IMG/fluent-mdl2_chat-bot.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 2rem;
+    background-color: rgb(15, 170, 209);
+  }
+
+}
+
+@media only screen and (min-width: 375px){
+  .chat-bot{
+    width: 4rem;
+    height: 4rem;
+    position: fixed;
+    z-index: 2;
+    transform: translate(17.5rem, -9rem) !important;
+    background-image: url(/IMG/fluent-mdl2_chat-bot.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 2rem;
+    background-color: rgb(15, 170, 209);
+  }
+}
+
+@media only screen and (min-width: 425px){
+  .chat-bot{
+    width: 4rem;
+    height: 4rem;
+    position: fixed;
+    z-index: 2;
+    transform: translate(20rem, -9rem) !important;
+    background-image: url(/IMG/fluent-mdl2_chat-bot.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 2rem;
+    background-color: rgb(15, 170, 209);
+  }
+}
+
+@media only screen and (min-width: 768px){
+  .chat-bot{
+    width: 4rem;
+    height: 4rem;
+    position: fixed;
+    z-index: 2;
+    transform: translate(39.5rem, -9rem) !important;
+    background-image: url(/IMG/fluent-mdl2_chat-bot.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 2rem;
+    background-color: rgb(15, 170, 209);
+  }
+}
